@@ -3,13 +3,13 @@
 	"name": "Express API Gateway",
 	"endpoints": [
 		{
-			"endpoint": "/users1",
+			"endpoint": "/pokemon",
 			"method": "GET", 
 			"backend": [
 				{ 
-					"host": ["http://localhost:8081"],
+					"host": ["https://pokeapi.co"],
 					"method": "GET",
-					"url_pattern": "/v1/test1/p"
+					"url_pattern": "/api/v2/pokemon/ditto"
 				}
 			]
 		}

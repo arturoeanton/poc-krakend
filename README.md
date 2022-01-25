@@ -3,7 +3,7 @@
 
 ## Description
 
-This POC  is for test dinamic routes in krakend.
+This POC  is for test dinamic(Hot reload) routes in krakend.
 
 
 ## Installation
