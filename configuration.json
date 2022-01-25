@@ -1,0 +1,17 @@
+{
+	"version": 2,
+	"name": "Express API Gateway",
+	"endpoints": [
+		{
+			"endpoint": "/users1",
+			"method": "GET", 
+			"backend": [
+				{ 
+					"host": ["http://localhost:8081"],
+					"method": "GET",
+					"url_pattern": "/v1/test1/p"
+				}
+			]
+		}
+	]
+}
