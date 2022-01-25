@@ -12,6 +12,17 @@
 					"url_pattern": "/api/v1/pokemon/ditto"
 				}
 			]
+		},
+		{
+			"endpoint": "/type/{id}",
+			"method": "GET", 
+			"backend": [
+				{ 
+					"host": ["https://pokeapi.co"],
+					"method": "GET",
+					"url_pattern": "/api/v1/type/{id}"
+				}
+			]
 		}
 	]
 }
