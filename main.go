@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/arturoeanton/go-notify"
+	notify "github.com/arturoeanton/go-notify"
 	"github.com/gin-gonic/gin"
 	"github.com/luraproject/lura/config"
 	"github.com/luraproject/lura/logging"
@@ -66,7 +66,7 @@ func main() {
 		log.Println("INFO:", "configuration reloaded")
 	}
 
-	notify.NewObserverNotify(*configFile).FxWrite(update).FxChmod(update).Run()
+	notify.NewObserverNotify(*configFile).FxCreate(update).FxWrite(update).FxChmod(update).Run()
 	r1.Run(serviceConfig)
 }
 

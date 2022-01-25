@@ -3,17 +3,18 @@ module github.com/arturoeanton/poc-krakend
 go 1.17
 
 replace (
-github.com/luraproject/lura => ../lura
-github.com/gin-gonic/gin => ../gin
+	github.com/gin-gonic/gin => ../gin
+	github.com/luraproject/lura => ../lura
 )
+
 require (
-	github.com/arturoeanton/go-notify v0.0.0-20220120152332-0504dcd7b00c
+	github.com/arturoeanton/go-notify v0.0.0-20220125155538-9208bf162493
 	github.com/gin-gonic/gin v1.1.5-0.20170702092826-d459835d2b07
 	github.com/luraproject/lura v1.4.1
 )
 
 require (
-	github.com/arturoeanton/gocommons v0.0.0-20220120150515-f4138c4f64e5 // indirect
+	github.com/arturoeanton/gocommons v0.0.0-20220120153246-903a54be6916 // indirect
 	github.com/devopsfaith/flatmap v0.0.0-20200601181759-8521186182fc // indirect
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
