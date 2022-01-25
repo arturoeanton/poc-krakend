@@ -2,6 +2,8 @@ github.com/arturoeanton/go-notify v0.0.0-20220120152332-0504dcd7b00c h1:YPXw3deV
 github.com/arturoeanton/go-notify v0.0.0-20220120152332-0504dcd7b00c/go.mod h1:xrGulEOwxy8Fv9LlTqkWtgqc6C4JO9NCu7zJ2dCetEM=
 github.com/arturoeanton/go-notify v0.0.0-20220125155538-9208bf162493 h1:Q1i7+tn+KCXGohDiHUVjQ5O0xsMp5L0xEXZNpQOHzlY=
 github.com/arturoeanton/go-notify v0.0.0-20220125155538-9208bf162493/go.mod h1:BAgKWy002CxiXS1DXHGCAHqYtsS5GuQ2gw+gsI6UOCA=
+github.com/arturoeanton/go-notify v1.0.0 h1:PYJFSdoFIT5RM/YNv7MteIGLj8YWpp9wPTImxO2fUO0=
+github.com/arturoeanton/go-notify v1.0.0/go.mod h1:BAgKWy002CxiXS1DXHGCAHqYtsS5GuQ2gw+gsI6UOCA=
 github.com/arturoeanton/gocommons v0.0.0-20220120150515-f4138c4f64e5 h1:DgDtOzea4jBIrpvx/Q9yjfU1Ej+za0rckbNY2vVMyAI=
 github.com/arturoeanton/gocommons v0.0.0-20220120150515-f4138c4f64e5/go.mod h1:kE3llOD5hDtrD0FJ4EjcZBRAgKnHMRSsSWwQKm271S8=
 github.com/arturoeanton/gocommons v0.0.0-20220120153246-903a54be6916 h1:dRc2esFjkRPsFERljYKG4w75JFSqzIIHmVOhtn8qw+I=

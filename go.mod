@@ -8,7 +8,7 @@ replace (
 )
 
 require (
-	github.com/arturoeanton/go-notify v0.0.0-20220125155538-9208bf162493
+	github.com/arturoeanton/go-notify v1.0.0
 	github.com/gin-gonic/gin v1.1.5-0.20170702092826-d459835d2b07
 	github.com/luraproject/lura v1.4.1
 )
