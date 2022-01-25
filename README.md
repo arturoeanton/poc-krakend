@@ -8,6 +8,12 @@ Allows you to create, modify and delete enpoints in "configuration.json" without
 
 At the bottomm of the document, you can view some examples about it. 
 
+## Demo Video
+
+The next video shows how to run and modify the endpoints 
+
+[![asciicast](https://asciinema.org/a/464252.svg)](https://asciinema.org/a/464252)
+
 
 ## Installation
 
@@ -39,13 +45,6 @@ func (e *Engine) ResetTrees() {
 ```
 touch configuration.json
 ```
-
-## Demo Video
-
-The next video shows how to run and modify the endpoints 
-
-[![asciicast](https://asciinema.org/a/464252.svg)](https://asciinema.org/a/464252)
-
 
 ## Examples
 
