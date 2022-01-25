@@ -61,11 +61,9 @@ func main() {
 			log.Println("ERROR:", err)
 			return
 		}
-
 		r1.ResteEngine()
 		r1.RegisterKrakendEndpoints(serviceConfig)
 		log.Println("INFO:", "configuration reloaded")
-
 	}
 
 	notify.NewObserverNotify(*configFile).FxWrite(update).FxChmod(update).Run()
