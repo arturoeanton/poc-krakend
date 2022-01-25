@@ -5,6 +5,7 @@
 
 This POC  is for test dinamic(Hot reload) routes in krakend.
 
+[![asciicast](https://raw.githubusercontent.com/arturoeanton/poc-krakend/main/demo/464252.svg](https://raw.githubusercontent.com/arturoeanton/poc-krakend/main/demo/recording.json)
 
 ## Installation
 
