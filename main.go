@@ -20,8 +20,9 @@ var routerFactory router.Factory
 func main() {
 	port := flag.Int("p", 9090, "Port of the service")
 	logLevel := flag.String("l", "ERROR", "Logging level")
-	debug := flag.Bool("d", false, "Enable the debug")
-	configFile := flag.String("c", "./configuration.json", "Path to the configuration filename")
+	debug := flag.Bool("debug", false, "Enable the debug")
+	directory := flag.String("d", "./", "Directory")
+	configFile := flag.String("c", "configuration.json", "Path to the configuration filename")
 	flag.Parse()
 
 	parser := config.NewParser()
@@ -53,7 +54,7 @@ func main() {
 
 	r1 := routerFactory.New()
 
-	update := func(observer *notify.ObserverNotify) {
+	update := func(observer *notify.ObserverNotify, event *notify.Event) {
 		parser := config.NewParser()
 		time.Sleep(time.Millisecond * 500)
 		serviceConfig, err := parser.Parse(observer.Filename)
@@ -66,7 +67,13 @@ func main() {
 		log.Println("INFO:", "configuration reloaded")
 	}
 
-	notify.NewObserverNotify(*configFile).FxCreate(update).FxWrite(update).FxChmod(update).Run()
+	notify.NewObserverNotify(*directory, *configFile).
+		FxCreate(update).
+		FxWrite(update).
+		FxChmod(update).
+		//FxRename(update).
+		//FxRemove(update).
+		Run()
 	r1.Run(serviceConfig)
 }
 
