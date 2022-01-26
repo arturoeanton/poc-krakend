@@ -2,7 +2,7 @@
 
 ## Description
 
-This POC  is for test dinamic (Hot reload) routes in krakend.
+This POC  is for test dynamic (Hot reload) routes in krakend.
 
 Allows you to create, modify and delete enpoints in "configuration.json" without restart the application. 
 
