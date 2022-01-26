@@ -1,12 +1,12 @@
 {
 	"version": 2,
 	"name": "Express API Gateway",
-	"endpoints": [
+	"endpoints": [ 
 		{
 			"endpoint": "/pokemon",
 			"method": "GET",
 			"backend": [
-				{
+				{ 
 					"host": [
 						"https://pokeapi.co"
 					],

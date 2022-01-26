@@ -77,6 +77,7 @@ func main() {
 	r1.Run(serviceConfig)
 }
 
+//
 // customProxyFactory adds a logging middleware wrapping the internal factory
 type customProxyFactory struct {
 	logger  logging.Logger
